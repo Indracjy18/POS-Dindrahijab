@@ -1,0 +1,12 @@
+ [LOGGER] 2025-03-05 10:53:09.421 PM error : uncaughtException: Cannot read properties of undefined (reading 'details')
+TypeError: Cannot read properties of undefined (reading 'details')
+    at createUser (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/userController.js:11:22)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:47:12)

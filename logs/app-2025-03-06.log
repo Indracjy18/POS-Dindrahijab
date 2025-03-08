@@ -1,0 +1,9 @@
+ [LOGGER] 2025-03-06 05:50:19.576 AM error : uncaughtException: updateUser is not defined
+ReferenceError: updateUser is not defined
+    at file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/routes/userRoute.js:6:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-03-06 05:54:53.021 AM error : controllers/userController.js:loginUser - secretOrPrivateKey must have a value
+ [LOGGER] 2025-03-06 05:57:22.822 AM error : controllers/userController.js:loginUser - secretOrPrivateKey must have a value
+ [LOGGER] 2025-03-06 05:57:23.948 AM error : controllers/userController.js:loginUser - secretOrPrivateKey must have a value
