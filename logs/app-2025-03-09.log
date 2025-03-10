@@ -6,3 +6,20 @@
  [LOGGER] 2025-03-09 12:17:45.536 AM error : JWT Verify Error:
  [LOGGER] 2025-03-09 12:17:58.476 AM error : JWT Verify Error:
  [LOGGER] 2025-03-09 12:18:28.487 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 12:32:17.799 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 12:34:27.053 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 12:44:24.517 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:31:28.524 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:36:03.945 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:38:52.729 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:38:52.784 AM error : uncaughtException: error.logger is not a function
+TypeError: error.logger is not a function
+    at createCategory (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/kategoriController.js:67:11)
+ [LOGGER] 2025-03-09 01:41:01.344 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:41:17.251 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:44:11.738 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:44:34.355 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:44:35.427 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:45:14.224 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:46:43.186 AM error : JWT Verify Error:
+ [LOGGER] 2025-03-09 01:47:09.287 AM error : JWT Verify Error:

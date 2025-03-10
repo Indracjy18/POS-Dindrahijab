@@ -48,30 +48,34 @@ export const getCategoryById = async (req, res) => {
 
 export const createCategory = async (req, res) => {
   const { error, value } = categoryValidation(req.body);
-  if (error != null) {
+
+  if (error) {
     return res.status(400).json({
       message: error.details[0].message,
     });
   }
+
   try {
     const result = await prisma.category.create({
       data: {
         kategoryName: value.kategoryName,
       },
     });
-    return res.status(20).json({
+
+    return res.status(200).json({
       message: "success",
       result,
     });
   } catch (error) {
-    error.logger(
-      "controllers/kategoriController.js:createCategory - " + error.message
+    logger.error(
+      `controllers/kategoriController.js:createCategory - ${error.message}`
     );
+
+    return res.status(500).json({
+      message: error.message,
+      result: null,
+    });
   }
-  return res.status(500).json({
-    message: error.message,
-    result: null,
-  });
 };
 
 export const updateCategory = async (req, res) => {

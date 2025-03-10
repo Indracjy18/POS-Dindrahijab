@@ -16,7 +16,7 @@ userRouter.put("/users/:id", isAuth, updateUser);
 userRouter.post("/users/login", loginUser);
 userRouter.delete("/users/:id", isAuth, deleteUser);
 userRouter.get("/users", isAuth, getAllUser);
-userRouter.post("/users/refresh", isAuth, setRefreshToken);
+userRouter.post("/users/refresh", setRefreshToken);
 userRouter.get("/users/:id", isAuth, getUserById);
 
 export default userRouter;

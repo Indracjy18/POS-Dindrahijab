@@ -13,7 +13,6 @@ const generateAccessToken = (user) => {
 
 // Membuat token refresh (JWT) dengan durasi yang lebih lama
 const generateRefreshToken = (user) => {
-  console.log("Secret saat generate token:", process.env.JWT_REFRESH_SECRET);
   const payload = { id: user.id };
   return JsonWebToken.sign(payload, process.env.JWT_REFRESH_SECRET, {
     algorithm: "HS256",
@@ -53,12 +52,15 @@ const parseJwt = (token) => {
 // Memverifikasi token akses
 const verifyAccessToken = (token) => {
   try {
+    console.log("Verifying token:", token); // Debug token
     return JsonWebToken.verify(token, process.env.JWT_SECRET, {
       algorithms: ["HS256"],
     });
   } catch (err) {
-    logger.error("JWT Verify Error:", err.message);
-    return { error: err.message };
+    logger.error(
+      `controllers/userController.js:verifyAccessToken - ${err.message}`
+    );
+    return null;
   }
 };
 

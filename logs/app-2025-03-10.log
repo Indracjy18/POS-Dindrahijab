@@ -1,0 +1,12 @@
+ [LOGGER] 2025-03-10 08:43:01.065 PM error : JWT Verify Error:
+ [LOGGER] 2025-03-10 09:17:00.028 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:17:46.941 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:20:21.784 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:20:27.432 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:22:17.061 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:22:18.214 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:22:44.514 PM error : controllers/userController.js:verifyAccessToken
+ [LOGGER] 2025-03-10 09:25:36.035 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-10 09:53:51.488 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-10 09:54:05.062 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-10 09:54:06.197 PM error : controllers/userController.js:verifyAccessToken - jwt expired
