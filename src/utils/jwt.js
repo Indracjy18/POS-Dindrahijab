@@ -39,12 +39,20 @@ const verifyRefreshToken = (token) => {
 // Parsing payload JWT tanpa verifikasi (hanya decode bagian payload)
 const parseJwt = (token) => {
   try {
-    const base64Payload = token.split(".")[1];
-    if (!base64Payload) throw new Error("Invalid token format");
+    if (!token) {
+      logger.error("❌ parseJwt: Token tidak tersedia!");
+      return null;
+    }
 
+    const parts = token.split(".");
+    if (parts.length < 3) {
+      throw new Error("Invalid token format");
+    }
+
+    const base64Payload = parts[1];
     return JSON.parse(Buffer.from(base64Payload, "base64").toString());
   } catch (err) {
-    logger.error("Error decoding JWT:", err.message);
+    logger.error(`❌ parseJwt Error: ${err.message}`);
     return null;
   }
 };

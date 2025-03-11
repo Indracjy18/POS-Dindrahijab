@@ -1,0 +1,36 @@
+ [LOGGER] 2025-03-11 04:25:11.407 PM error : uncaughtException: getAllSupplier is not defined
+ReferenceError: getAllSupplier is not defined
+    at file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/routes/supplierRoute.js:5:41
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-03-11 04:51:48.130 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-11 05:00:07.881 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-11 10:06:37.312 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-11 10:07:08.657 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-11 10:07:36.065 PM error : uncaughtException: supplierValidation.validate is not a function
+TypeError: supplierValidation.validate is not a function
+    at createSupplier (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/supplierController.js:89:47)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuth (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/errorController.js:25:5)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2025-03-11 10:07:56.385 PM error : uncaughtException: supplierValidation.validate is not a function
+TypeError: supplierValidation.validate is not a function
+    at createSupplier (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/supplierController.js:89:47)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuth (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/errorController.js:25:5)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2025-03-11 10:13:37.775 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-11 10:14:16.101 PM error : controllers/userController.js:verifyAccessToken - jwt expired

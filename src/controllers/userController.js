@@ -203,11 +203,14 @@ export const setRefreshToken = async (req, res) => {
         .json({ message: "Verify token failed", result: null });
     }
 
+    // Decode token tanpa verifikasi untuk debugging
+    const decodedToken = parseJwt(token);
+    console.log("Decoded Token:", decodedToken);
+
     const verify = verifyRefreshToken(token); // Verifikasi token
     console.log("JWT_REFRESH_SECRET:", process.env.JWT_REFRESH_SECRET);
 
     if (!verify || !verify.id) {
-      // Pastikan token berisi ID
       return res
         .status(401)
         .json({ message: "Invalid token, missing user ID", result: null });
@@ -215,7 +218,6 @@ export const setRefreshToken = async (req, res) => {
 
     console.log("Token verify result:", verify);
 
-    // Cari user berdasarkan ID, bukan userName
     const user = await prisma.user.findUnique({
       where: { id: verify.id },
     });
@@ -224,10 +226,8 @@ export const setRefreshToken = async (req, res) => {
       return res.status(401).json({ message: "User not found", result: null });
     }
 
-    // Jangan kirim password ke frontend
     user.password = "xxxxxxxxxxxxxxxxxx";
 
-    // Buat access token baru
     const accessToken = generateAccessToken(user);
     const refreshToken = generateRefreshToken(user);
 
@@ -238,7 +238,6 @@ export const setRefreshToken = async (req, res) => {
       refreshToken,
     });
   } catch (error) {
-    // console.error("JWT Verify Error:", err.message);
     logger.error(
       "controllers/userController.js:setRefreshToken - " + error.message
     );
