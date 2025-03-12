@@ -1,2 +1,49 @@
  [LOGGER] 2025-03-12 05:54:34.453 AM error : controllers/userController.js:verifyAccessToken - jwt expired
  [LOGGER] 2025-03-12 06:01:07.686 AM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-12 09:07:00.340 PM error : uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at generatePdf (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/supplierController.js:188:18)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuth (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/errorController.js:25:5)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2025-03-12 09:10:12.129 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-12 09:10:45.244 PM error : uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at generatePdf (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/supplierController.js:188:18)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuth (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/errorController.js:25:5)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2025-03-12 09:11:10.213 PM error : controllers/supplierController.js:generatePdf - Cannot read properties of undefined (reading 'findMany')
+ [LOGGER] 2025-03-12 09:11:34.390 PM error : controllers/supplierController.js:generatePdf - Cannot read properties of undefined (reading 'findMany')
+ [LOGGER] 2025-03-12 09:13:05.659 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-12 10:54:12.494 PM error : uncaughtException: __dirname is not defined
+ReferenceError: __dirname is not defined
+    at generateExcel (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/supplierController.js:260:31)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuth (file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/controllers/errorController.js:25:5)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\PORTOFOLIO-WEB\Pos-App-Dindrahijab\backend\node_modules\express\lib\router\index.js:286:9
+ [LOGGER] 2025-03-12 10:56:28.224 PM error : controllers/userController.js:verifyAccessToken - jwt expired

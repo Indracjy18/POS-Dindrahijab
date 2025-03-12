@@ -3,6 +3,8 @@ import { isAuth } from "../controllers/errorController.js";
 import {
   createSupplier,
   deleteSupplier,
+  generateExcel,
+  generatePdf,
   getAllSupplier,
   getSupplierById,
   updateSupplier,
@@ -14,5 +16,7 @@ supplierRouter.get("/suppliers/:id", isAuth, getSupplierById);
 supplierRouter.post("/suppliers", isAuth, createSupplier);
 supplierRouter.put("/suppliers/:id", isAuth, updateSupplier);
 supplierRouter.delete("/suppliers/:id", deleteSupplier);
+supplierRouter.get("/suppliers-pdf", isAuth, generatePdf);
+supplierRouter.get("/suppliers-excel", isAuth, generateExcel);
 
 export default supplierRouter;
