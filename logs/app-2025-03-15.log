@@ -1,0 +1,21 @@
+ [LOGGER] 2025-03-15 02:12:38.028 AM error : uncaughtException: supplierRoute is not defined
+ReferenceError: supplierRoute is not defined
+    at file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/routes/index.js:8:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-03-15 02:13:21.621 AM error : uncaughtException: supplierRoute is not defined
+ReferenceError: supplierRoute is not defined
+    at file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/routes/index.js:8:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-03-15 02:13:46.291 AM error : uncaughtException: supplierRoute is not defined
+ReferenceError: supplierRoute is not defined
+    at file:///D:/PORTOFOLIO-WEB/Pos-App-Dindrahijab/backend/src/routes/index.js:8:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-03-15 02:20:47.729 AM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-15 04:02:47.035 PM error : controllers/userController.js:verifyAccessToken - jwt expired
+ [LOGGER] 2025-03-15 04:04:45.358 PM error : controllers/userController.js:verifyAccessToken - jwt expired

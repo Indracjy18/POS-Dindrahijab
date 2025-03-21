@@ -9,14 +9,14 @@ import {
   getSupplierById,
   updateSupplier,
 } from "../controllers/supplierController.js";
-const supplierRouter = Router();
+const supplierRoute = Router();
 
-supplierRouter.get("/suppliers", isAuth, getAllSupplier);
-supplierRouter.get("/suppliers/:id", isAuth, getSupplierById);
-supplierRouter.post("/suppliers", isAuth, createSupplier);
-supplierRouter.put("/suppliers/:id", isAuth, updateSupplier);
-supplierRouter.delete("/suppliers/:id", deleteSupplier);
-supplierRouter.get("/suppliers-pdf", isAuth, generatePdf);
-supplierRouter.get("/suppliers-excel", isAuth, generateExcel);
+supplierRoute.get("/suppliers", isAuth, getAllSupplier);
+supplierRoute.get("/suppliers/:id", isAuth, getSupplierById);
+supplierRoute.post("/suppliers", isAuth, createSupplier);
+supplierRoute.put("/suppliers/:id", isAuth, updateSupplier);
+supplierRoute.delete("/suppliers/:id", deleteSupplier);
+supplierRoute.get("/suppliers-pdf", isAuth, generatePdf);
+supplierRoute.get("/suppliers-excel", isAuth, generateExcel);
 
-export default supplierRouter;
+export default supplierRoute;
